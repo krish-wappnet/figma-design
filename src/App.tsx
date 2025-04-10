@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './components/About'
+import Chef from './components/Chef'
 import Hero from './components/Hero'
 import Menu from './components/Menu'
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Menu/>
+      <Chef/>
     </div>
   )
 }

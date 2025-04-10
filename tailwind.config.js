@@ -7,8 +7,9 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          serif: ["Cormorant Garamond","Cinzel Decorative",'"Playfair Display"', 'serif'],
-        },
+          serif: ['"Cormorant Upright"', 'serif'],
+          mormont:['"Cormorant Upright"']
+        }
       },
     },
     plugins: [],

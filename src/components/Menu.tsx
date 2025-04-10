@@ -1,4 +1,6 @@
 import cocktailShaker from '../assets/cocktail.png'; // adjust if needed
+import spoon from '../assets/spoon.png'; // adjust if needed
+
 
 function Menu() {
   return (
@@ -6,12 +8,27 @@ function Menu() {
       <div className="w-full max-w-6xl">
         {/* Header */}
         <div className="text-center mb-16">
-            <p className="text-sm text-gray-300 mb-2 tracking-wide">Menu That Fits You Palatte</p>
-            <h2 className="text-5xl text-yellow-200 font-normal relative inline-block">
-                Today's Special
-                <span className="absolute left-1/2 bottom-[-10px] w-16 h-[1px] bg-yellow-500 transform -translate-x-1/2"></span>
-            </h2>
-            </div>
+        <p className="text-sm text-gray-300 tracking-wide">
+          Menu That Fits You Palatte
+        </p>
+
+        {/* Spoon Icon Between Paragraph and Heading */}
+        <img 
+          src={spoon} 
+          alt="Spoon Icon" 
+          className="inline-block mx-auto mb-6 w-16 h-16" 
+        />
+
+      <div className="relative">
+        <h2 className="text-5xl text-yellow-200 font-normal inline-block">
+          Today's Special
+        </h2>
+        {/* Decorative Line */}
+        <span className="absolute top-1/2 left-0 w-full h-[2px] bg-black transform -translate-y-1/2 -rotate-45 origin-center"></span>
+      </div>
+      </div>
+
+
 
         {/* Content */}
         <div className="flex flex-col md:flex-row items-start justify-between gap-12">
