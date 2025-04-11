@@ -58,7 +58,7 @@ function Menu() {
           <img
             src={cocktailShaker}
             alt="Cocktail Shaker"
-            className="h-[200px] md:h-[300px] lg:h-[350px] object-contain"
+            className="h-[200px] md:h-[300px] lg:h-[450px] object-contain"
             />
           </div>
 

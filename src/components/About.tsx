@@ -1,14 +1,13 @@
-// src/components/About.tsx
 import React from 'react';
 import '@fontsource/playfair-display/700.css'; // Playfair Display bold
 import knifeImage from '../assets/knife.webp';
 
 const About: React.FC = () => {
   return (
-    <div className="relative w-full min-h-screen bg-black text-white flex flex-col lg:flex-row items-center justify-center px-6 lg:px-12 py-16 lg:py-24 bg-[radial-gradient(ellipse_at_center,_rgba(30,30,30,0.7)_0%,_rgba(0,0,0,1)_100%)] space-y-12 lg:space-y-0 lg:space-x-6">
+    <div className="relative w-full min-h-screen bg-black text-white flex flex-col lg:flex-row items-center justify-center px-6 lg:px-6 py-16 lg:py-24 bg-[radial-gradient(ellipse_at_center,_rgba(30,30,30,0.7)_0%,_rgba(0,0,0,1)_100%)] space-y-12 lg:space-y-0 lg:space-x-1">
       
       {/* Left Section - About Us */}
-      <div className="w-full lg:w-5/12 lg:pr-12 flex flex-col items-center lg:items-end text-center lg:text-right z-30">
+      <div className="w-full lg:w-5/12 lg:pr-2 flex flex-col items-center lg:items-end text-center lg:text-right z-30">
         <h2 className="font-serif text-4xl lg:text-5xl text-yellow-200 mb-4">About Us</h2>
         <p className="text-gray-200 text-sm leading-relaxed max-w-md">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
@@ -35,7 +34,7 @@ const About: React.FC = () => {
       </div>
 
       {/* Right Section - Our History */}
-      <div className="w-full lg:w-5/12 lg:pl-12 flex flex-col items-center lg:items-start text-center lg:text-left z-30">
+      <div className="w-full lg:w-5/12 lg:pl-2 flex flex-col items-center lg:items-start text-center lg:text-left z-30">
         <h2 className="font-serif text-4xl lg:text-5xl text-yellow-200 mb-4">Our History</h2>
         <p className="text-gray-200 text-sm leading-relaxed max-w-md">
           Adipiscing tempor ultriciesortis odio tellus arcu vulputat. Risus
