@@ -14,9 +14,9 @@ const About: React.FC = () => {
           adipiscing ultricies vulputate posuere quisque. In sed odio nec
           aliquet eu proin mauris et.
         </p>
-        <button className="mt-6 bg-yellow-200 text-black px-6 py-2 font-medium hover:bg-yellow-300 transition text-sm">
-          Know More
-        </button>
+        <button className="bg-amber-200/90 text-gray-900 px-4 py-2 font-light text-sm hover:bg-amber-300 transition-colors mt-4">
+              Know More
+            </button>
       </div>
 
       {/* Center Image - Knife with G overlay */}
@@ -27,7 +27,7 @@ const About: React.FC = () => {
             alt="Knife"
             className="w-auto h-120 object-contain z-5" // Lowered z-index to z-5
           />
-          <div className="absolute text-[500px] font-serif text-yellow-200 opacity-20 z-0 transform  origin-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute text-[500px] font-serif opacity-10 z-0 transform  origin-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             G
           </div>
         </div>
@@ -41,8 +41,8 @@ const About: React.FC = () => {
           placerat morbi vulputate quisque interdum mi aliquam in sed odio
           nec aliquet.
         </p>
-        <button className="mt-6 bg-yellow-200 text-black px-6 py-2 font-medium hover:bg-yellow-300 transition text-sm">
-          Know More
+        <button className="bg-amber-200/90 text-gray-900 px-4 py-2 font-light text-sm hover:bg-amber-300 transition-colors mt-4">
+              Know More
         </button>
       </div>
     </div>

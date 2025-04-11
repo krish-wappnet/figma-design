@@ -31,7 +31,7 @@ function PhotoGallery() {
   ];
 
   return (
-    <div className="bg-black h-auto flex items-center justify-center py-8 px-4">
+    <div className="bg-black min-h-screen flex items-center justify-center py-8 px-4">
       <div className="max-w-6xl w-full">
         <div className="flex flex-col md:flex-row justify-between items-start mb-8">
           <div className="mb-8 md:mb-0">
@@ -45,7 +45,7 @@ function PhotoGallery() {
               <img 
                 src={spoonImage} 
                 alt="Spoon icon" 
-                className="h-6 w-auto ml-1"
+                className="h-10 w-auto ml-1"
               />
             </div>
             
