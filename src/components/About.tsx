@@ -8,7 +8,7 @@ const About: React.FC = () => {
       
       {/* Left Section - About Us */}
       <div className="w-full lg:w-5/12 lg:pr-2 flex flex-col items-center lg:items-end text-center lg:text-right z-30">
-        <h2 className="font-serif text-4xl lg:text-5xl text-yellow-200 mb-4">About Us</h2>
+        <h2 className=" text-4xl lg:text-5xl text-yellow-200 mb-4">About Us</h2>
         <p className="text-gray-200 text-sm leading-relaxed max-w-md">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultricies vulputate posuere quisque. In sed odio nec
@@ -27,7 +27,7 @@ const About: React.FC = () => {
             alt="Knife"
             className="w-auto h-52 sm:h-72 lg:h-120 object-contain z-5"
           />
-          <div className="absolute text-[180px] sm:text-[300px] lg:text-[500px] font-serif opacity-10 z-0 transform origin-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute text-[180px] sm:text-[300px] lg:text-[500px]  opacity-10 z-0 transform origin-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             G
           </div>
         </div>
@@ -35,7 +35,7 @@ const About: React.FC = () => {
 
       {/* Right Section - Our History */}
       <div className="w-full lg:w-5/12 lg:pl-2 flex flex-col items-center lg:items-start text-center lg:text-left z-30">
-        <h2 className="font-serif text-4xl lg:text-5xl text-yellow-200 mb-4">Our History</h2>
+        <h2 className=" text-4xl lg:text-5xl text-yellow-200 mb-4">Our History</h2>
         <p className="text-gray-200 text-sm leading-relaxed max-w-md">
           Adipiscing tempor ultriciesortis odio tellus arcu vulputat. Risus
           placerat morbi vulputate quisque interdum mi aliquam in sed odio

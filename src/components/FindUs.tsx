@@ -8,11 +8,11 @@ function FindUs() {
       {/* Left Section */}
       <div className="w-full max-w-lg text-center md:text-left mb-10 md:mb-0">
         <div className="mb-4 flex flex-col items-center md:items-start">
-          <p className="text-white text-lg font-light mb-1">Contact</p>
+          <span className="text-white text-lg font-light mb-1">Contact</span>
           <img src={spoon} alt="spoon" className="w-8 h-10 mt-1" />
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-[60px] font-serif font-normal text-[#DCCA87] leading-tight mb-6">
+        <h1 className="text-4xl sm:text-5xl md:text-[60px]  font-normal text-[#DCCA87] leading-tight mb-6">
           Find Us
         </h1>
 

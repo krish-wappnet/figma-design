@@ -10,9 +10,9 @@ function NewsLetter() {
       {/* Newsletter Section */}
       <div className="bg-[#0C0B08] text-white px-4 py-16 flex justify-center items-center shadow-[0_0_60px_rgba(255,255,255,0.1)]">
         <div className="w-full max-w-6xl text-center border border-[#333] p-10 md:p-20 bg-[#0C0B08]">
-          <p className="text-[#DCCA87] text-lg font-serif mb-2">Newsletter</p>
+          <p className="text-[#DCCA87] text-lg mb-2">Newsletter</p>
           <img src={spoon} alt="spoon" className="mx-auto w-8 mb-4" />
-          <h1 className="text-[#DCCA87] text-4xl md:text-6xl font-serif mb-4">
+          <h1 className="text-[#DCCA87] text-4xl md:text-6xl  mb-4">
             Subscribe To Our Newsletter
           </h1>
           <p className="text-gray-300 mb-10">And never miss latest Updates!</p>
@@ -39,7 +39,7 @@ function NewsLetter() {
         
         {/* Contact Us */}
         <div className="w-full md:w-1/3">
-        <h3 className="text-[#DCCA87] text-2xl font-serif mb-4">Contact Us</h3>
+        <h3 className="text-[#DCCA87] text-2xl  mb-4">Contact Us</h3>
         <p className="text-gray-300 mb-2">9 W 53rd St, New York, NY 10019, USA</p>
         <p className="text-gray-300">+1 212-344-1230</p>
         <p className="text-gray-300">+1 212-555-1230</p>
@@ -47,7 +47,7 @@ function NewsLetter() {
 
         {/* Center Info */}
         <div className="w-full md:w-1/3 flex flex-col items-center justify-center">
-        <h1 className="text-[#DCCA87] text-4xl font-serif mb-4">GERÍCHT</h1>
+        <h1 className="text-[#DCCA87] text-4xl  mb-4">GERÍCHT</h1>
         <p className="text-gray-300 italic mb-4 max-w-xs text-center">
             "The best way to find yourself is to lose yourself in the service of others."
         </p>
@@ -61,7 +61,7 @@ function NewsLetter() {
 
         {/* Working Hours */}
         <div className="w-full md:w-1/3 md:text-right">
-        <h3 className="text-[#DCCA87] text-2xl font-serif mb-4">Working Hours</h3>
+        <h3 className="text-[#DCCA87] text-2xl  mb-4">Working Hours</h3>
         <p className="text-gray-300 mb-2">Monday-Friday:</p>
         <p className="text-gray-300 mb-4">08:00 am -12:00 am</p>
         <p className="text-gray-300 mb-2">Saturday-Sunday:</p>

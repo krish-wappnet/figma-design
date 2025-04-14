@@ -7,7 +7,7 @@ import videoImage from '../assets/Video.png'; // New video image
 
 function Chef() {
   return (
-    <div className="bg-black min-h-fit py-16 px-4 font-serif">
+    <div className="bg-black min-h-fit py-16 px-4 ">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           
@@ -41,7 +41,7 @@ function Chef() {
             </div>
 
             {/* Title */}
-            <h2 className="text-4xl md:text-5xl text-amber-200/90 mb-10" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="text-4xl md:text-5xl text-amber-200/90 mb-10">
               What We Believe In
             </h2>
 

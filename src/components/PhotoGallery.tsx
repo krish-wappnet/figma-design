@@ -50,7 +50,7 @@ function PhotoGallery() {
             </div>
             
             {/* Gallery Title */}
-            <h2 className="text-4xl md:text-5xl font-serif text-amber-200/90 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Photo Gallery</h2>
+            <h2 className="text-4xl md:text-5xl  text-amber-200/90 mb-4">Photo Gallery</h2>
             
             {/* Placeholder Text */}
             <div className="max-w-md">

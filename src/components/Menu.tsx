@@ -4,7 +4,7 @@ import spoon from '../assets/spoon.png'; // adjust if needed
 
 function Menu() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center px-6 py-16 font-serif">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center px-6 py-16">
       <div className="w-full max-w-6xl">
         {/* Header */}
         <div className="text-center mb-16">

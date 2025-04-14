@@ -54,10 +54,10 @@ function Laurels() {
           {/* Left side - Awards */}
           <div className="w-full md:w-1/2 text-white">
             <div className="mb-10">
-              <p className="text-sm font-light italic text-yellow-200 mb-2">
+              <p className="text-sm  italic text-yellow-200 mb-2">
                 Awards & Recognition
               </p>
-              <h2 className="text-5xl font-serif text-yellow-200 mb-10">
+              <h2 className="text-5xl  text-yellow-200 mb-10">
                 Our Laurels
               </h2>
             </div>
@@ -73,7 +73,7 @@ function Laurels() {
                     />
                   </div>
                   <div>
-                    <h3 className="text-yellow-200 text-xl font-medium mb-1 font-serif">
+                    <h3 className="text-yellow-200 text-xl font-medium mb-1 ">
                       {award.title}
                     </h3>
                     <p className="text-gray-400 text-sm">
